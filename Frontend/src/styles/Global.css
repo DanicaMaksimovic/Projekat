@@ -1,0 +1,17 @@
+
+
+.global {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.global .naslov {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.boldovano {
+    font-weight: bold;
+}

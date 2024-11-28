@@ -1,0 +1,75 @@
+
+
+.forma {
+    margin-top: 40px;
+    display: flex;
+}
+
+.login-input {
+    width: 280px;
+    margin-top: 10px
+}
+
+.polje-password {
+    margin-top: 20px;
+}
+
+.akcije {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.akcije .zaboravljena-lozinka{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.akcije .zaboravljena-lozinka a {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(140,140,140);
+}
+
+
+.akcije .login-dugme {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.akcije .create-account-dugme, 
+.fullwidth-dugme {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.fullwidth-dugme a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+}
+
+.registracija {
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.greska {
+    color:red;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+
+.info {
+    margin-top: 30px;
+    font-size: 24px;
+    color: green;
+}

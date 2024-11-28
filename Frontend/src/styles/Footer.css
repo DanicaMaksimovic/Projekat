@@ -1,0 +1,14 @@
+
+.footer {
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #cecece;
+}
+
+.footer .footer-elementi {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+}

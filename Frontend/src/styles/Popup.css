@@ -1,0 +1,43 @@
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.099)
+}
+
+.popup .sadrzaj {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    min-width: 350px;
+    min-height: 150px;
+
+    -webkit-box-shadow: 1px 27px 91px -48px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 27px 91px -48px rgba(0,0,0,0.75);
+box-shadow: 1px 27px 91px -48px rgba(0,0,0,0.75);
+}
+
+
+.popup .sadrzaj > .naslov {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.popup .sadrzaj > .akcije {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup .sadrzaj > .akcije .delete-dugme {
+    margin-left: 10px;
+}
+

@@ -1,0 +1,67 @@
+
+
+.button {
+    padding: 8px 25px;
+    border-radius: 20px;
+    display: inline-flex;
+    font-weight: bold;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.button-fullwidth {
+    width: 100%;
+}
+
+.button-bg-pink {
+    background-color: #ea2595;
+}
+
+.button-bg-black {
+    background-color: #000000;
+}
+
+.button-bg-white {
+    background-color: white;
+}
+
+.button-color-pink {
+    color: #ea2595;
+}
+
+.button-color-black {
+    color: #000000;
+}
+
+.button-color-white {
+    color: white;
+}
+
+.button-border-none {
+    border: none;
+}
+
+.button-border-pink {
+    border: 2px solid #ea2595;
+}
+
+.button-border-black {
+    border: 2px solid black;
+}
+
+.dugme-razmak{
+    margin-right: 5px;
+  }
+
+
+.button-text-poravnanje-levo {
+    justify-content: flex-start;
+}
+
+.button-text-poravnanje-centar {
+    justify-content: center;
+}
+
+.button-text-poravnanje-desno {
+    justify-content: flex-end;
+}
